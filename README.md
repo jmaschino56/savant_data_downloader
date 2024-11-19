@@ -25,7 +25,7 @@ start_date = '2023-01-01'
 end_date = '2023-01-10'
 
 # Fetch the data
-`data = get_new_data(start_date, end_date)`
+data = get_new_data(start_date, end_date)
 
 # If data was fetched successfully, it will be returned as a Polars DataFrame
 if data:
